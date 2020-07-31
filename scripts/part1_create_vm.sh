@@ -30,7 +30,7 @@ time gcloud compute instances create web-ravish27-devops \
 --metadata-from-file startup-script=./scripts/startup.sh
 #--image=ubuntu-1604-xenial-v20200729 \
 
-gcloud compute instances add-tags web-ravish27-devops --project $PROJECT --tags http-server,https-server
+gcloud compute instances add-tags web-ravish27-devops --tags http-server,https-server --zone=$ZONE 
  
 # Create GCE VM with disk storage
 #time gcloud compute instances create web-1 \
