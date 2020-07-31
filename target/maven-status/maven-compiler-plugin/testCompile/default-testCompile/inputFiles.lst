@@ -1,2 +1,2 @@
-/home/rsehgal/eclipse-workspace/DevOpsBootCamp/cicd-pipeline/src/test/java/com/TestHelloService.java
-/home/rsehgal/eclipse-workspace/DevOpsBootCamp/cicd-pipeline/src/test/java/com/TestCalculatorService.java
+/home/rsehgal/eclipse-workspace/cicd-pipeline/src/test/java/com/TestCalculatorService.java
+/home/rsehgal/eclipse-workspace/cicd-pipeline/src/test/java/com/TestHelloService.java
