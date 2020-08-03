@@ -5,4 +5,3 @@
   tasks:
   - name: run script
     command: /bin/sh './ansible/part1_create_vm.sh'
-    #- debug: msg="the echo was {{ role_path }}/files/part1_create_vm.sh"
