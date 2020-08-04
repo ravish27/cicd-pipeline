@@ -4,4 +4,4 @@
   gather_facts: no
   tasks:
   - name: run script
-    command: /bin/sh ./ansible/part1_create_vm.sh {{ tag }}
+    command: /bin/sh './ansible/part1_create_vm.sh'
