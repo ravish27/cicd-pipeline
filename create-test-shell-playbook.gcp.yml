@@ -3,5 +3,7 @@
   hosts: localhost
   gather_facts: no
   tasks:
-  - name: run script
+  - name: create vm and install docker
     command: /bin/sh './ansible/part1_create_vm.sh'
+  - name: create container
+    command: /bin/sh ./ansible/part2_create_container.sh {{ tag }}
